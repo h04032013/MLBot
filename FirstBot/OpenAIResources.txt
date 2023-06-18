@@ -1,0 +1,3 @@
+I read the following docs:
+
+https://platform.openai.com/docs/guides/gpt/chat-completions-api
