@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import (
     QWidget,
     QLabel,
     QLineEdit,
+    QTextEdit,
     QPushButton,
     QVBoxLayout,
     QHBoxLayout,
@@ -34,7 +35,7 @@ class MainWindow(QWidget):
         self.answer_field = QTextEdit()
         self.answer_field.setReadOnly(True)
         self.submit_button = QPushButton('Submit')
-        self.submit_button.selfStyleSheet(
+        self.submit_button.setStyleSheet(
             """
             QPushButton {
                 background-color: #4CAF50;
